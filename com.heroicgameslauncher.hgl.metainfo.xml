@@ -237,19 +237,72 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="v2.20.1" date="2026-02-26">
+    <release version="v2.21.0" date="2026-04-22">
       <description>
         <p>General</p>
         <ul>
-          <li>[UI] Show update badge on gamecard only if controller is connected</li>
-          <li>[FIX] False positive "an error has occurred" messages on bleeding-edge Linux distros</li>
-          <li>[Feat] Automatically pause and resume downloads based connectivity status</li>
-          <li>[FIX] Use correct partition and clear data on epic logout</li>
-          <li>[FIX] Add a launch default option when none is available besides DLCs</li>
-          <li>[UX] Fix PATH on mac for intel homebrew and macports when checking winetricks deps</li>
-          <li>[UX] Show link to instructions to install winetricks deps on macos</li>
-          <li>[i18n] Updated Translations</li>
-          <li>[UX] Hide main window when quitting</li>
+          <li>New Fullscreen &quot;Console-like&quot; Mode for joystick navigation (#5490)</li>
+          <li>New Deals page with current GOG promotions (#5497)</li>
+          <li>Achievements on the game info page for GOG games (#5208)</li>
+          <li>Pick covers from SteamGridDB directly on the sideload dialog when a SteamGrid API key is set (#5213)</li>
+          <li>Wine manager screen cleanup + new Wine settings screen (#5306)</li>
+          <li>Electron updated to v41.1.1 (#5467)</li>
+          <li>How Long To Beat data fixed (#5466)</li>
+          <li>Import button moved next to the Install button for better discoverability (#5339)</li>
+          <li>GitHub Sponsors link added to the sidebar (#5499)</li>
+          <li>[UX] Allow disabling GOG Presence updates  in</li>
+          <li>[FIX]: address some issues with Zoom Platform implementation  in</li>
+          <li>chore: harden workflow permissions and standardize GITHUB_TOKEN usage  in</li>
+          <li>tech: add github copilot instructions  in</li>
+          <li>Update bug report template with latest release [bot] in</li>
+          <li>[FIX] Clean up release notes by removing URLs and usernames  in</li>
+          <li>[DOC] Minimum MacOS version  in</li>
+          <li>[UX] Allow picking .avif images in add game image selector  in</li>
+          <li>[FIX]: include mod type as displayable  in</li>
+          <li>[ZOOM] Fix multi-file installation of games  in</li>
+          <li>Bump immutable from 5.1.2 to 5.1.5 [bot] in</li>
+          <li>Bump fast-xml-parser from 4.5.3 to 4.5.4 [bot] in</li>
+          <li>Bump axios from 1.13.2 to 1.13.5 [bot] in</li>
+          <li>[feat] add achievements to game info page  in</li>
+          <li>[UX] Cleanup general logs  in</li>
+          <li>[UX] Cleanup game logs, add config file path  in</li>
+          <li>[FIX] Fix inconcistent login state switching stores  in</li>
+          <li>[UX] Hint at 4-char codes in preferred language  in</li>
+          <li>[Fix] Check if game install folder exists before anything else  in</li>
+          <li>[Refactor] Reduce the number of requests that we do at boot time  in</li>
+          <li>fix(gamepage): prevent achievement list overflow  in</li>
+          <li>[Mac] Update DXMT in installed Wines if new version detected  in</li>
+          <li>Bump @xmldom/xmldom from 0.8.10 to 0.8.12 [bot] in</li>
+          <li>Bump undici from 7.8.0 to 7.24.0 [bot] in</li>
+          <li>Bump fast-xml-parser from 4.5.4 to 5.5.7 [bot] in</li>
+          <li>Bump undici from 6.21.3 to 7.24.7 [bot] in</li>
+          <li>[FIX] Don&apos;t look for anticheat file if not present, don&apos;t check DXMT if not M chip  in</li>
+          <li>Add Windows ARM 64 Native Build Support  in</li>
+          <li>Fix typo on TwoColTableInput component style  in</li>
+          <li>[Tech]  Update electron to v41.1.1  in</li>
+          <li>fix: clear GOG presence when disabling the setting  in</li>
+          <li>[FIX] Load wine versions on first run  in</li>
+          <li>[UX] Fix mix between default prefixes dir and shared prefix dir  in</li>
+          <li>[i18n] Updated Translations  in</li>
+          <li>[FIX] System info and game settings in logs for native sideloaded games  in</li>
+          <li>[FIX] Use dpaste.com instead of 0x0.st to upload logs  in</li>
+          <li>[FIX] Use mirror for latest Wine-Crossover version  in</li>
+          <li>[FIX] How Long To Beat 🎶One More Time...🎶  in</li>
+          <li>[Feat] Use SteamGrid API to select covers on sideload dialog  in</li>
+          <li>[UI] Wine manager screen cleanup and add wine settings screen  in</li>
+          <li>[FIX] Always pick staging asset instead of devel for Wine Staging on MacOS  in</li>
+          <li>[UI] Add GitHub Sponsors link to sidebar  in</li>
+          <li>[Feat] Add a new Deals page with current GOG promotions  in</li>
+          <li>[Feat] Add a new Fullscreen &quot;Console-like&quot; Mode for Joystick navigation  in</li>
+          <li>[UI] Move import button to the side of the Install one  in</li>
+          <li>[TECH] Update legendary binary version to 0.20.43  in</li>
+          <li>[i18n] Updated Translations  in</li>
+          <li>@lmReef made their first contribution in</li>
+          <li>@barraponto made their first contribution in</li>
+          <li>@talynone made their first contribution in</li>
+          <li>@JavMatz made their first contribution in</li>
+          <li>@reverb256 made their first contribution in</li>
+          <li>*Full Changelog**:</li>
         </ul>
       </description>
     </release>
