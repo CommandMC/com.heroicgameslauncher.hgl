@@ -237,19 +237,20 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="v2.20.1" date="2026-02-26">
+    <release version="v2.21.0" date="2026-04-22">
       <description>
         <p>General</p>
         <ul>
-          <li>[UI] Show update badge on gamecard only if controller is connected</li>
-          <li>[FIX] False positive "an error has occurred" messages on bleeding-edge Linux distros</li>
-          <li>[Feat] Automatically pause and resume downloads based connectivity status</li>
-          <li>[FIX] Use correct partition and clear data on epic logout</li>
-          <li>[FIX] Add a launch default option when none is available besides DLCs</li>
-          <li>[UX] Fix PATH on mac for intel homebrew and macports when checking winetricks deps</li>
-          <li>[UX] Show link to instructions to install winetricks deps on macos</li>
-          <li>[i18n] Updated Translations</li>
-          <li>[UX] Hide main window when quitting</li>
+          <li>New Fullscreen &quot;Console-like&quot; Mode for joystick navigation (#5490)</li>
+          <li>New Deals page with current GOG promotions (#5497)</li>
+          <li>Achievements on the game info page for GOG games (#5208)</li>
+          <li>Pick covers from SteamGridDB directly on the sideload dialog when a SteamGrid API key is set (#5213)</li>
+          <li>Wine manager screen cleanup + new Wine settings screen (#5306)</li>
+          <li>Electron updated to v41.1.1 (#5467)</li>
+          <li>How Long To Beat data fixed (#5466)</li>
+          <li>Import button moved next to the Install button for better discoverability (#5339)</li>
+          <li>GitHub Sponsors link added to the sidebar (#5499)</li>
+          <li>Several other fixes and improvements</li>
         </ul>
       </description>
     </release>
