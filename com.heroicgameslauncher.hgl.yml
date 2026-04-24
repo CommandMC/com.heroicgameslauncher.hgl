@@ -226,7 +226,7 @@ modules:
       - ./Heroic-*.AppImage --appimage-extract
       - mv squashfs-root /app/bin/heroic
       - install -D heroic-run -t /app/bin
-      - patch-desktop-filename ${FLATPAK_DEST}/bin/heroic/resources/app.asar
+      - patch-electron-desktop-filename ${FLATPAK_DEST}/bin/heroic/resources/app.asar
     sources:
       - type: script
         dest-filename: heroic-run
