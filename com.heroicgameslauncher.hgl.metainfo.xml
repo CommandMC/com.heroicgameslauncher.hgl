@@ -237,20 +237,31 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="v2.21.0" date="2026-04-22">
+    <release version="v2.22.0" date="2026-05-16">
       <description>
         <p>General</p>
         <ul>
-          <li>New Fullscreen &quot;Console-like&quot; Mode for joystick navigation (#5490)</li>
-          <li>New Deals page with current GOG promotions (#5497)</li>
-          <li>Achievements on the game info page for GOG games (#5208)</li>
-          <li>Pick covers from SteamGridDB directly on the sideload dialog when a SteamGrid API key is set (#5213)</li>
-          <li>Wine manager screen cleanup + new Wine settings screen (#5306)</li>
-          <li>Electron updated to v41.1.1 (#5467)</li>
-          <li>How Long To Beat data fixed (#5466)</li>
-          <li>Import button moved next to the Install button for better discoverability (#5339)</li>
-          <li>GitHub Sponsors link added to the sidebar (#5499)</li>
-          <li>Several other fixes and improvements</li>
+          <li>Feat: add owned game filter on GOG Deals screen  in</li>
+          <li>Feat: tray icon acts as toggle  in</li>
+          <li>[Fix] &quot;Copy to clipboard&quot; button in system info page  in</li>
+          <li>Feat: add wishlist only filter on GOG Deals screen  in</li>
+          <li>Bump system requirements  in</li>
+          <li>Fix: stop button on game page  in</li>
+          <li>feat: support ubisoftconnect managed titles  in</li>
+          <li>[FIX] GOG Links from Deals screen  in</li>
+          <li>[UX] Add back prime check with more information  in</li>
+          <li>feat: separate ps5 and &lt;ps4 icons  in</li>
+          <li>[Chore] Check if Arm or x86 on plausible analytics  in</li>
+          <li>[Console] Add ability to install games from console mode  in</li>
+          <li>[i18n] Updated Translations  in</li>
+          <li>[Feat] Support for videos on changelog modal  in</li>
+          <li>[UI] Console mode Improvements  in</li>
+          <li>[Feat] Option to hide Heroic window on heroic:// launches (#5154)  in</li>
+          <li>[Feat] Add ability to Edit game title and images from any store.  in</li>
+          <li>[i18n] Updated Translations  in</li>
+          <li>[Fix] Controler tweaks for console mode  in</li>
+          <li>@Ishidawg made their first contribution in</li>
+          <li>*Full Changelog**:</li>
         </ul>
       </description>
     </release>
